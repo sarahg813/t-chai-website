@@ -6,7 +6,7 @@ export default () => (
     <div className="pageContainer row">
       <div className="homeTileDiv container row col-md-6 col-sm-12">
         {homeTilesData.map(tile => (
-          <div key={tile.img} className="homeTiles col-lg-6 col-sm-4">
+          <div key={tile.title} className="homeTiles col-lg-6 col-sm-4">
             <img
               src={tile.img}
               alt={tile.title}
@@ -15,11 +15,20 @@ export default () => (
           </div>
         ))}
       </div>
-      <div className="container col-md-6 col-sm-12">
-        <div className="homeTextDiv d-flex justify-content-center">
-          <h4 className="homeText">
-            Fashion Designer &amp; <br /> Illustrator
-          </h4>
+      <div className="container d-flex align-items-center col-md-6 col-sm-12">
+        <div className="container d-flex flex-column">
+          <div>
+            <img
+              src="/images/creative-creature-lg.png"
+              alt="creative creature sign"
+              className="img-fluid creatureSignImg"
+            />
+          </div>
+          <div className="homeTextDiv d-flex justify-content-center">
+            <h4 className="homeText">
+              Fashion Designer &amp; <br /> Illustrator
+            </h4>
+          </div>
         </div>
       </div>
     </div>
