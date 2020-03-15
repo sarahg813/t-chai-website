@@ -20,7 +20,7 @@ const MainNavbar = props => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <Navbar className="mainNav align-items-end" expand="md">
+    <Navbar className="mainNav align-items-end" expand="md" role="navigation">
       <NavbarBrand className="align-self-end h1" href="/">
         T i f f a n y &nbsp; C h a i
       </NavbarBrand>

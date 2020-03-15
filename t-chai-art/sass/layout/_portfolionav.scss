@@ -1,0 +1,9 @@
+.portfolioTab > a {
+  font-family: $font-stack-tertiary;
+  color: black;
+}
+
+.portfolioTab > .nav-link.active {
+  font-weight: bold;
+  font-style: italic;
+}

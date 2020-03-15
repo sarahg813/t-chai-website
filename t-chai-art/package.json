@@ -1,11 +1,14 @@
 {
   "name": "t-chai-art",
   "version": "0.1.0",
+  "engines": {
+    "node": "13.11.x"
+  },
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
